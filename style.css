@@ -1,42 +1,60 @@
-body {
-    background-color: rgb(89, 63, 136);
-  }
-
-
-h1{
-    color: rgb(223, 117, 255);
-    font-family:American Typewriter, serif;
-    font-size: 40px;
-    padding-left: 20px;	
+/*Afbeelding: bron: https://nl.tenstickers.be/stickers/wanddecoratie-stickers-roze-hartvormen-met-glitters-A28694*/
+.hartje {
+    width: 5%;
+    padding: 0%
 }
 
-h2{
+body {
+    background-color: rgb(89, 63, 136);
+}
+
+
+h1 {
+    color: rgb(223, 117, 255);
+    font-family: American Typewriter, serif;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+h2 {
     color: rgb(232, 209, 255);
-    padding-left: 20px;	
+    padding-left: 20px;
 }
 
 /*Afbeelding: bron: https://www.dictionary.com/e/emoji/raised-hand/*/
-body header img{
-    width: 50%;
+body header img {
+    width: 40%;
     padding-left: 40px;
 }
 
 /*Naam formulier*/
-input[type=text], select {
-  width: 20%;
-  padding: 1px 20px;
-  margin: 8px ;
-  display: inline-block;
-  border: 1px solid rgb(105, 69, 190);
-  border-radius: 20px;
-  box-sizing: border-box;
+input {
+    width: 20%;
+    border-radius: 50px;
+    border: none;
+    padding: 3px;
+    padding-left: 20px;
+    margin-left: 20px;
 }
 
-
-div {
-  border-radius: 5px;
-  padding: 20px;
+/*positie nagellakjes*/
+.nagellak {
+    display: flex;
+    width: 5em;
+    flex-direction: column;
+    justify-content: space-evenly;
+    column-gap: 5em;
+    margin: 5em;
+    padding-left: 800px;
+    
 }
 
-
-
+/*positie decoratie*/
+.decoratie {
+    width: 9em;
+    padding-left: 4em;
+    margin-inline: 1em;
+}
