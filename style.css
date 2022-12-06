@@ -1,9 +1,9 @@
 body {
-    background-color: #9457EB;
+    background-color: #bd88f8;
 }
 
 h1 {
-    color: rgb(223, 117, 255);
+    color: #db0084;
     font-family: American Typewriter, serif;
     font-size: 40px;
     padding-left: 20px;
@@ -18,11 +18,11 @@ h2 {
 
 /*Afbeelding: bron: https://nl.tenstickers.be/stickers/wanddecoratie-stickers-roze-hartvormen-met-glitters-A28694*/
 .hartje {
-    width: 5%;
+    width: 6%;
     padding: 0%
 }
 
-/*Afbeelding: bron: https://www.dictionary.com/e/emoji/raised-hand/*/
+/*Afbeelding: bron: https://www.freepik.com/free-vector/set-hands_4015405.htm#query=hand&position=1&from_view=search&track=sph*/
 .hand {
     width: 34%;
     padding-left: 40px;
@@ -40,42 +40,53 @@ input {
 }
 
 /*positie nagellakjes*/
-.nagellak-oranje{
+.nagellakoranje{
     position: absolute;
     width: 100px;
-    margin: 80px 0px 0px 0px;
+    margin: 40px 0px 0px 50px;
 }
 
-.nagellak-groen {
+.nagellakgroen {
     position: absolute;
     width: 100px;
-    margin: 80px 10px 100px 200px;
+    margin: 40px 10px 100px 220px;
 }
 
-.nagellak-blauw{
+.nagellakblauw{
     position: absolute;
     width: 100px;
-    margin: 80px 10px 100px 400px;
+    margin: 40px 10px 100px 390px;
 }
 
-.nagellak-roze{
+.nagellakroze{
     position: absolute;
     width: 100px;
-    margin: 80px 0px 100px 600px;
+    margin: 40px 0px 100px 560px;
 }
 
 /*positie decoratie*/
 /*foto parel bron:https://steven-universe-dutch.fandom.com/nl/wiki/Parel*/
-.decoratie-parel {
+.parel {
     width: 80%;
     position: absolute;
     width: 100px;
-    margin: 400px 0px 100px 0px;
+    margin: 300px 0px 100px 50px;
 }
 
-.decoratie-diamand{
+.diamand{
     width: 40%;
     position: absolute;
     width: 100px;
-    margin: 400px 0px 100px 150px;
+    margin: 300px 0px 100px 200px;
 }
+
+/*random tekst*/
+.tekst{
+    margin-left: 600px;
+    margin-top: -100px;
+    padding-top: -600px;
+    font-size: 40px;
+    font-family: American Typewriter, serif;
+    color: rgb(52, 0, 112);
+}
+/*eind random tekst*/
