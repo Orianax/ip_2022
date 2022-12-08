@@ -14,13 +14,13 @@ var parel = document.querySelector(".parel")
 var diamand = document.querySelector(".diamand")
 /*Eind vars handen met gekleurde nagels*/
 
+
 /*Begin kleur nagellak veranderd met function - Math random voor 4 verschillende tekste */
 function handleGroen(){
     handen.src = "./img/handgroen.png"; 
     beledigingWeergeven = Math.floor(Math.random() *4);
     pElement.textContent = belediging[beledigingWeergeven];
     console.log("belediging")
-    nagellakStatus = 'aan'; 
 }
 
 groeneLak.addEventListener("click", handleGroen);
@@ -31,7 +31,6 @@ function handleRoze(){
     complimentWeergeven = Math.floor(Math.random() *4);
     pElement.textContent = complimentje[complimentWeergeven];
     console.log("complimentje")
-    nagellakStatus = 'uit';
 }
 
 rozeLak.addEventListener("click", handleRoze);
@@ -42,7 +41,6 @@ function handleBlauw(){
     complimentWeergeven = Math.floor(Math.random() *3);
     pElement.textContent = complimentje[complimentWeergeven];
     console.log("complimentje")
-    nagellakStatus = 'uit';
 }
 
 blauweLak.addEventListener("click", handleBlauw);
@@ -52,7 +50,7 @@ function handleOranje(){
     beledigingWeergeven = Math.floor(Math.random() *4);
     pElement.textContent = belediging[beledigingWeergeven];
     console.log("belediging")
-    nagellakStatus = 'aan'; 
+
 }
 
 oranjeLak.addEventListener("click", handleOranje);
@@ -60,7 +58,7 @@ oranjeLak.addEventListener("click", handleOranje);
 
 
 /*complimentjes of beledinging tekst*/
-var pElement = document.querySelector("p")
+var pElement = document.querySelector(".tekst")
 
 var complimentWeergeven = Math.floor(Math.random()*4);
 
@@ -70,3 +68,25 @@ var beledigingWeergeven = Math.floor(Math.random()*4);
 
 var belediging = ["Lelijk..🤢", "Bah..🤮", "Verschrikkelijk..🤬", "Hoe durf je..🤕"]
 /*eind complimentjes of beledinging tekst*/
+
+
+/*diamand en parels op nagels*/
+var handDiamant = document.querySelector(".handDiamand")
+
+function diamantjesOpHand(){
+    transparantefoto.src = "images/handdiamand.png";}
+
+
+/*naam veranderen bovenin scherm*/
+var input = document.querySelector("input");
+
+var p = document.querySelector(".jouwnaam");
+
+var button = document.querySelector("button");
+
+button.addEventListener("click", () => {
+
+p.textContent = input.value;
+
+});
+/*eind naam veranderen bovenin scherm*/
