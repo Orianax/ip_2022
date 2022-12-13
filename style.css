@@ -37,6 +37,7 @@ input {
     padding-top: 2px;
 }
 
+
 .jouwnaam{
     color: #dd349a;
     font-family: American Typewriter, serif;
@@ -52,50 +53,77 @@ button{
     border: none;
     border-radius: 30px;
     padding: 10px;
+    
 }
+/* eind naam formulier*/
 
 
 /*positie nagellakjes*/
 .nagellakoranje{
     position: absolute;
     width: 100px;
-    margin: 40px 0px 0px 50px;
+    margin: -150px 0px 0px 50px;
 }
 
 .nagellakgroen {
     position: absolute;
     width: 100px;
-    margin: 40px 10px 100px 220px;
+    margin: -150px 10px 100px 220px;
 }
 
 .nagellakblauw{
     position: absolute;
     width: 100px;
-    margin: 40px 10px 100px 390px;
+    margin: -150px 10px 100px 390px;
 }
 
 .nagellakroze{
     position: absolute;
     width: 100px;
-    margin: 40px 0px 100px 560px;
+    margin: -150px 0px 100px 560px;
 }
+/* eind positie nagellakjes*/
 
 /*positie decoratie*/
-/*foto parel bron:https://steven-universe-dutch.fandom.com/nl/wiki/Parel*/
-.parel {
+/*bron:https://steven-universe-dutch.fandom.com/nl/wiki/Parel*/
+.diamand {
     width: 80%;
     position: absolute;
     width: 100px;
-    margin: 300px 0px 100px 50px;
+    margin: 120px 0px 100px 50px;
 }
 
-.diamand{
-    width: 40%;
+/*bronhttps://www.springersjewelers.com/products/add-a-pearls */
+.parel{
+    width: 80%;
     position: absolute;
     width: 100px;
-    margin: 300px 0px 100px 200px;
+    margin: 120px 10px 100px 220px;
 }
 
+/*bronhttps://madeformoments.nl/product/sluitzegel-hartje-goud */
+.goud{
+    width: 80%;
+    position: absolute;
+    width: 100px;
+    margin: 120px 10px 100px 390px;
+}
+
+/*bron https://www.google.com/search?q=cupcake+&tbm=isch&ved=2ahUKEwjjxsm5qfb7AhW9xbsIHfFbCDgQ2-cCegQIABAA&oq=cupcake+&gs_lcp=CgNpbWcQAzIECAAQQzIFCAAQgAQyBQgAEIAEMgQIABBDMgQIABBDMgQIABBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJzoICAAQgAQQsQM6BAgAEAM6BwgAELEDEENQrAZYzQ5gnxBoAHAAeACAATaIAZ4DkgEBOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=k0uYY6OxGr2L7_UP8behwAM&bih=820&biw=1440&hl=nl*/
+.cupcake{
+    width: 80%;
+    position: absolute;
+    width: 100px;
+    margin: 120px 10px 100px 560px;
+}
+
+/*eind positie decoratie*/
+/*bron https://www.flaticon.com/free-icon/girl_2423853?term=girl&related_id=2423853 */
+.hulpPop{
+    width: 400px;
+    margin-left: 380px;
+    margin-top: -30px;
+}
 /*random tekst*/
 .tekst{
     margin-left: 565px;
@@ -107,3 +135,4 @@ button{
     font-weight:normal;
 }
 /*eind random tekst*/
+
